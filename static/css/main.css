@@ -1,0 +1,98 @@
+.blank {
+    height: 0.5vh;
+    background-color: black;
+}
+
+.line {
+    max-width: 48%;
+}
+
+.block {
+    margin-top: 4px;
+}
+
+.hearder,
+.htitle {
+    display: block;
+    height: 5vh;
+    background-color: black;
+    text-align: center;
+}
+
+.timer,
+.countdown,
+.match,
+.type {
+    display: block;
+    height: 15vh;
+    background-color: black;
+    text-align: center;
+}
+
+.score,
+.blue,
+.red {
+    display: block;
+    height: 70vh;
+    background-color: black;
+    text-align: center;
+}
+
+.scorename {
+    display: block;
+    height: 5vh;
+    background-color: black;
+    text-align: center;
+}
+
+.footer {
+    display: block;
+    height: 10vh;
+    background-color: black;
+    text-align: center;
+}
+
+.htitle {
+    background-color: white;
+    border-radius: 6px;
+}
+
+.countdown {
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+.match {
+    background-color: white;
+    margin-right: -12px;
+    border-radius: 4px;
+}
+.type {
+    background-color: white;
+    margin-left: -12px;
+    border-radius: 4px;
+}
+
+.bluename {
+    background-color: blue;
+    margin-right: -12px;
+    color: white;
+}
+
+.redname {
+    background-color: red;
+    margin-left: -12px;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    margin-right: -12px;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    margin-left: -12px;
+    color: white;
+}
