@@ -1,5 +1,5 @@
 .blank {
-    height: 0.5vh;
+    height: 0.2vh;
     background-color: black;
 }
 
@@ -14,9 +14,14 @@
 .hearder,
 .htitle {
     display: block;
-    height: 5vh;
+    height: 4vh;
     background-color: black;
+}
+
+.titlecenter {
     text-align: center;
+    font-size: 22px;
+    font-weight: 800;
 }
 
 .timer,
@@ -24,7 +29,7 @@
 .match,
 .type {
     display: block;
-    height: 15vh;
+    height: 20vh;
     background-color: black;
     text-align: center;
 }
@@ -33,12 +38,14 @@
 .blue,
 .red {
     display: block;
-    height: 70vh;
+    height: 65vh;
     background-color: black;
     text-align: center;
 }
 
-.scorename {
+.scorename,
+.bluename,
+.redname {
     display: block;
     height: 5vh;
     background-color: black;
@@ -62,6 +69,22 @@
     border-radius: 4px;
 }
 
+.timing {
+    margin-top: -25px;
+    font-size: 115pt;
+    font-weight: 800;
+}
+
+.htype {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hmatch {
+    font-size: 44pt;
+    font-weight: 800;
+}
+
 .match {
     background-color: white;
     margin-right: -12px;
@@ -77,22 +100,30 @@
     background-color: blue;
     margin-right: -12px;
     color: white;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .redname {
     background-color: red;
     margin-left: -12px;
     color: white;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .blue {
     background-color: blue;
     margin-right: -12px;
     color: white;
+    font-size: 275pt;
+    font-weight: 400;
 }
 
 .red {
     background-color: red;
     margin-left: -12px;
     color: white;
+    font-size: 275pt;
+    font-weight: 400;
 }
